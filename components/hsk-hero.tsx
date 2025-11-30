@@ -1,6 +1,7 @@
 "use client"
 
-import { TrendingUp, Shield, Clock, Award } from "lucide-react"
+import { TrendingUp, Clock, Award } from "lucide-react"
+import Image from "next/image"
 
 export function HskHero() {
   return (
@@ -34,7 +35,7 @@ export function HskHero() {
               <span className="text-sm">Aktualne analize</span>
             </div>
             <div className="flex items-center gap-2 text-[var(--sport-silver)]">
-              <Shield className="w-4 h-4 text-[var(--sport-accent)]" />
+              <Image src="/flag.png" alt="Shield" width={24} height={24} />
               <span className="text-sm">Licencirani operatori</span>
             </div>
             <div className="flex items-center gap-2 text-[var(--sport-silver)]">
